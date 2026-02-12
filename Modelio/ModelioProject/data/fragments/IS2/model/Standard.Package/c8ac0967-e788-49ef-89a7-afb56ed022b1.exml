@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de actividad: Deslizar" version="4">
+  <OBJECT>
+    <ID name="Diagrama de actividad: Deslizar" mc="Standard.Package" uid="c8ac0967-e788-49ef-89a7-afb56ed022b1"/>
+    <PID name="IS2" mc="Standard.Project" uid="aa4514cd-c5ef-4a8b-b4e5-b4135d70826c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de actividad: Deslizar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="3376bb09-be47-4cdb-b864-371d44043f76"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

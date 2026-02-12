@@ -10,7 +10,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Model">
-        <COMPID name="is2" mc="Standard.Package" uid="b463cd6b-cf1a-4ca4-92b2-5475758e4acc"/>
+        <COMPID name="Modelo de dominio" mc="Standard.Package" uid="b463cd6b-cf1a-4ca4-92b2-5475758e4acc"/>
+        <COMPID name="Diagrama de actividad: Añadir al carrito" mc="Standard.Package" uid="16694d5b-62b9-4a09-9e7c-43d4303b978e"/>
+        <COMPID name="Diagrama de actividad: Deslizar" mc="Standard.Package" uid="c8ac0967-e788-49ef-89a7-afb56ed022b1"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="IS2" mc="Infrastructure.DiagramSet" uid="52bc9732-e192-4d14-be78-40816bf19e4e"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de actividad: Añadir al carrito" version="4">
+  <OBJECT>
+    <ID name="Diagrama de actividad: Añadir al carrito" mc="Standard.Package" uid="16694d5b-62b9-4a09-9e7c-43d4303b978e"/>
+    <PID name="IS2" mc="Standard.Project" uid="aa4514cd-c5ef-4a8b-b4e5-b4135d70826c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de actividad: Añadir al carrito]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="e7088cc9-4d89-4339-b1ca-7390baf33a5a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
