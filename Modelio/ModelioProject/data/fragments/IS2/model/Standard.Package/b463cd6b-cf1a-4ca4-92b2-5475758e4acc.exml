@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de dominio" version="4">
+  <OBJECT>
+    <ID name="Modelo de dominio" mc="Standard.Package" uid="b463cd6b-cf1a-4ca4-92b2-5475758e4acc"/>
+    <PID name="IS2" mc="Standard.Project" uid="aa4514cd-c5ef-4a8b-b4e5-b4135d70826c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo de dominio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Class" uid="ebdd81cd-0ee0-4ad2-b99d-ee9d8b398d6b"/>
+        <COMPID name="Vendedor" mc="Standard.Class" uid="0f04674a-f2fd-4037-9f37-018375e4e195"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="3f277d86-2e40-4bc5-9cf2-945ccafd2a78"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="005ee526-ef3d-411c-9efc-bf7fe2796b6f"/>
+        <COMPID name="MotorRecomendación" mc="Standard.Class" uid="186fcce0-2cf3-4524-b656-f1446d8c15d3"/>
+        <OBJECT>
+          <ID name="EstadoProducto" mc="Standard.Enumeration" uid="4469cebc-7f83-449b-bdda-cdb661ed2cca"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[EstadoProducto]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Interacción" mc="Standard.Class" uid="40214a0a-5d5b-4ba6-9ddb-4d03d8fedbd2"/>
+        <COMPID name="Carrito" mc="Standard.Class" uid="3e46d130-f0ec-4a02-a4cc-b25d7f743668"/>
+        <OBJECT>
+          <ID name="Categoría" mc="Standard.Enumeration" uid="69d70723-aa9c-4874-a86a-dd2bdab632f9"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Categoría]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Gusto" mc="Standard.Class" uid="61ccde9a-cd51-4b3d-95f8-139bbac89a69"/>
+        <COMPID name="Autenticarse" mc="Standard.Interface" uid="b0557e92-81f4-434c-89d9-3de22f51e3b5"/>
+        <COMPID name="DescripciónProducto" mc="Standard.Class" uid="26604da9-a6f4-4e5b-9777-cb220a6ecb1c"/>
+        <COMPID name="Venta" mc="Standard.Class" uid="7f7047f1-8661-4e73-bfd1-56a8526dbed3"/>
+        <COMPID name="Notificación" mc="Standard.Class" uid="a18ce4a9-aa27-43ca-8e31-91e462e91d18"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Modelo de dominio Class diagram" mc="Standard.ClassDiagram" uid="1759325d-b41a-424d-9364-c21854a84921"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

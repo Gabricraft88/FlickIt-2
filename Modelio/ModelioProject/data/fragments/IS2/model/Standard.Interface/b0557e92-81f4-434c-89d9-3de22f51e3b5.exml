@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Autenticarse" version="4">
+  <OBJECT>
+    <ID name="Autenticarse" mc="Standard.Interface" uid="b0557e92-81f4-434c-89d9-3de22f51e3b5"/>
+    <PID name="Modelo de dominio" mc="Standard.Package" uid="b463cd6b-cf1a-4ca4-92b2-5475758e4acc"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Autenticarse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
