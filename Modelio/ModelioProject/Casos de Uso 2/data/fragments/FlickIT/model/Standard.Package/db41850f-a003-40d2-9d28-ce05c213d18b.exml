@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="flickit" version="4">
+  <OBJECT>
+    <ID name="flickit" mc="Standard.Package" uid="db41850f-a003-40d2-9d28-ce05c213d18b"/>
+    <PID name="FlickIT" mc="Standard.Project" uid="1834e45c-cea7-4b68-a36f-14269479a57d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[flickit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Actor" uid="ea78540d-5a37-43ba-ba31-dd5a86a98fb2"/>
+        <COMPID name="Iniciar Sesión" mc="Standard.UseCase" uid="4f197f72-ed22-4c05-aa0b-5c6e8b5ae542"/>
+        <COMPID name="Recuperar Contraseña" mc="Standard.UseCase" uid="48f41ba2-6cee-4daa-9fbd-59d0071ddf22"/>
+        <COMPID name="Registrarse" mc="Standard.UseCase" uid="c19d37da-bd06-4c5f-9e83-baf3eb90ad06"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="307ec4dc-25c5-4b01-a260-6ab8feceba71"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="599c4957-d2b3-4490-ab8d-0e94a457067f"/>
+        <COMPID name="Deslizar" mc="Standard.UseCase" uid="a81411a6-da9a-4711-adbd-0442af5ffb66"/>
+        <COMPID name="Seleccionar Categoría" mc="Standard.UseCase" uid="69345f8d-dfdc-4a9b-a83b-674d83f51125"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="673e0b60-9dc1-4f09-84ea-a4666d8d5ac3"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="da5e46d0-a02f-4b57-9e07-3ceda000f944"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="5c10953d-fa7d-4268-8246-e07889eb49f5"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="d6c93f23-563e-42a1-8cdb-d47cc52123b2"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="fd021be3-a6f1-4fa2-a188-f28fe1bbcd6a"/>
+        <COMPID name="Seleccionar categoría" mc="Standard.UseCase" uid="abce979f-3be1-492f-8e70-ae3a8ae64176"/>
+        <COMPID name="Consultar descripción" mc="Standard.UseCase" uid="54ce420d-0bfe-4851-a1f9-41df644bf2e0"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="6937e9ed-ae24-4569-a75b-24c0d152a9b8"/>
+        <COMPID name="Marcar como leído" mc="Standard.UseCase" uid="7b2df7c6-411b-4ba9-ba08-446ddd0f9757"/>
+        <COMPID name="Borrar notificación" mc="Standard.UseCase" uid="fc64afbc-f1f3-46af-ba09-4b83c4022f17"/>
+        <COMPID name="Consultar estado" mc="Standard.UseCase" uid="de766026-037c-4a7d-9f35-006322d3ef8d"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="9022dc60-4736-4d2b-a1ee-6a8035a45d76"/>
+        <COMPID name="Vendedor" mc="Standard.Actor" uid="9044b04f-82dc-426c-a880-09485b87e35b"/>
+        <COMPID name="Añadir producto" mc="Standard.UseCase" uid="06aaeffb-b1f6-4437-b8b3-024e9b7d867c"/>
+        <COMPID name="Eliminar producto" mc="Standard.UseCase" uid="0b418a30-050e-4427-8fd6-2dbf5ad82480"/>
+        <COMPID name="Editar producto" mc="Standard.UseCase" uid="2201bfa4-c7d6-4d42-9290-6122a673d0a4"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="d67a0dc6-ab7a-4632-a355-965af9ce9724"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="423056d8-d1cb-4083-91b1-c9551113d7cc"/>
+        <COMPID name="Consultar productos activos" mc="Standard.UseCase" uid="4eed5402-1bfb-4826-b70c-865d94230972"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="e08026d9-6344-4046-92a6-345244052888"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Autenticarse" mc="Standard.UseCaseDiagram" uid="247b53c9-6fb8-4e5e-88f9-e6ea93f61e4a"/>
+        <COMPID name="Pagina de inicio" mc="Standard.UseCaseDiagram" uid="aa6f87c0-33bf-4420-a92b-d35ae8397ddb"/>
+        <COMPID name="Notificaciones" mc="Standard.UseCaseDiagram" uid="9d7d121c-a742-4209-b3ac-852c12bb27c3"/>
+        <COMPID name="Gestionar productos" mc="Standard.UseCaseDiagram" uid="a0561873-1c3f-4035-9aa0-66bc12097e3c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
