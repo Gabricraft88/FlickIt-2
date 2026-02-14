@@ -1,0 +1,9 @@
+#Fri Feb 13 19:32:03 CET 2026
+org.modelio.app.diagram.editor.OpenedDiagrams0='Abrir Carrito' {d0837c83-c6bc-4976-b9a1-3c28225a6296} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Gestionar productos' {34e400dc-bd2d-4adc-b1b0-6d3099abca90} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams4='Notificaciones' {c1837cac-f55a-4d38-b384-b9bcc3ff3b06} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Autenticarse' {9f94c8ee-f8ee-4351-b08e-d27a9768e75a} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Cliente' {4e515f0f-cca3-4f94-ab8b-c5f03936260f} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='Vendedor' {70804732-11ef-48bb-a9ec-be5967e016ab} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Pagina de inicio' {d9c719de-2c8f-4cd7-b5ef-acc6fbd48e08} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Perfil' {7e770eb8-16b9-4062-8f2a-c133ea8ff238} Standard.UseCaseDiagram

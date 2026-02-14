@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project2" version="4">
+  <OBJECT>
+    <ID name="project2" mc="Standard.Package" uid="b23a392c-76b7-4d7f-a33a-5e8abcdab691"/>
+    <PID name="Project2" mc="Standard.Project" uid="b5e9a85f-d68c-4770-8cc5-dfb7d941bb88"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Actor" uid="bfddbb99-20fc-41b2-968c-ab73a54a481e"/>
+        <COMPID name="Seleccionar Productos" mc="Standard.UseCase" uid="62f5f37c-9f1f-49b3-b8cc-ffebb5a2bafd"/>
+        <COMPID name="Eliminar productos" mc="Standard.UseCase" uid="1b07e56c-d7cd-4835-8a3f-7920807c2b4e"/>
+        <COMPID name="Pagar" mc="Standard.UseCase" uid="da1f6bc1-9136-4d54-a767-380ee5b331ef"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="981f0d28-4b17-4873-8b81-aca801ff5479"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="439e2acd-e1f8-4ba8-992b-21c8bfd52fc2"/>
+        <COMPID name="Usuario" mc="Standard.Actor" uid="4aec1d8c-60ed-4ac7-8e7b-e2554680fa63"/>
+        <COMPID name="Iniciar sesión" mc="Standard.UseCase" uid="978f7553-35dd-40e6-9e02-6ce44fe132d3"/>
+        <COMPID name="Recuperar contraseña" mc="Standard.UseCase" uid="6eff1e7e-6cb1-4833-bba7-87ca82aa384e"/>
+        <COMPID name="Registrarse" mc="Standard.UseCase" uid="8f2c8e2f-c063-4795-9947-7de0b1913cb7"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="30a87abc-2289-40e9-a237-313da76dd58e"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="19b0efff-b136-4880-a695-6c3ccb337cb7"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="403fe23e-51b8-4366-bf2e-7090a9870d52"/>
+        <COMPID name="Usuario" mc="Standard.Actor" uid="19005fb1-3d6d-4b31-8adb-b8941e3bfb25"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="777598e7-da38-4c70-b117-b0574f052aa9"/>
+        <COMPID name="Acceder a pagina de inicio" mc="Standard.UseCase" uid="d8610952-546d-4d3d-aa3b-d24c4650b1c6"/>
+        <COMPID name="Acceder a carrito" mc="Standard.UseCase" uid="6ea5d3a9-93f0-4d17-9b88-7cf4296b7798"/>
+        <COMPID name="Gestionar perfil" mc="Standard.UseCase" uid="91a5b1f7-a3c6-4f90-8107-d1b09899b48e"/>
+        <COMPID name="Acceder a notificaciones" mc="Standard.UseCase" uid="6e938904-b40e-4684-83c8-1b64c53ecbda"/>
+        <COMPID name="Autenticarse" mc="Standard.UseCase" uid="b672974e-d90a-496b-a154-3c9473021b55"/>
+        <COMPID name="Acceder a base de datos" mc="Standard.UseCase" uid="609d5aa8-aad2-473e-b0c7-c0ebf0bc4006"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="21f02dc0-a140-409e-b9b4-3b23d3cecad1"/>
+        <COMPID name="Vendedor" mc="Standard.Actor" uid="7bc8f023-4079-49dc-8633-568f86856cd2"/>
+        <COMPID name="Añadir producto" mc="Standard.UseCase" uid="9cdc0579-0602-4116-98ec-f287dd9b4054"/>
+        <COMPID name="Eliminar producto" mc="Standard.UseCase" uid="0c1a532a-3ef7-4042-8d30-1d476404aaf5"/>
+        <COMPID name="Editar producto" mc="Standard.UseCase" uid="995cf94b-e785-4629-bd0e-61a1fe5f6a38"/>
+        <COMPID name="Consultar productos activos" mc="Standard.UseCase" uid="ef63280b-d980-4cbb-8be8-11a3b7703ba6"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="04ca9eb3-2993-498e-9459-097b7e17d91c"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="45730c0c-298a-4447-ab3b-32fa656c238e"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="34baad83-f9db-4fe5-9975-4e14382691ac"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="9f9e5d9c-b75f-4b6f-b602-345fde11c2cc"/>
+        <COMPID name="Seleccionar categoria" mc="Standard.UseCase" uid="4220f40f-9fd7-4bb7-b8fa-f90ff778bd12"/>
+        <COMPID name="Marcar como leido" mc="Standard.UseCase" uid="f3d38757-1dcb-46b0-9d94-de18b6e6cd65"/>
+        <COMPID name="Consultar estado" mc="Standard.UseCase" uid="e8e914a2-f8bb-47c0-a1b2-62d15723e64b"/>
+        <COMPID name="Borrar notificacion" mc="Standard.UseCase" uid="30def1a7-336a-4e69-b805-d6064f8d3256"/>
+        <COMPID name="Consultar bases de datos" mc="Standard.UseCase" uid="1c539d85-534d-4891-9742-19cce68b62a0"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="04eec0e3-4962-4491-a2fc-0762f78ac897"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="80ffb245-6095-4182-a1ff-461b9871bb31"/>
+        <COMPID name="Deslizar" mc="Standard.UseCase" uid="989ff8dc-a7ca-4e5e-a166-249005ee3671"/>
+        <COMPID name="Consultar descripcion" mc="Standard.UseCase" uid="4bfc8d43-f31b-4500-9aad-1a95091d8016"/>
+        <COMPID name="Seleccionar categoria" mc="Standard.UseCase" uid="8eacecc4-4dcc-411e-81ff-dd310d8f9d29"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="ed1e67f9-8e84-4969-a457-59c2267a8b5e"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="53bd0cef-7866-4a2f-9ada-d70450169bfd"/>
+        <COMPID name="Usuario" mc="Standard.Actor" uid="a44e1286-c1cf-48bb-9bd4-b6683d331eb9"/>
+        <COMPID name="Cambiar idioma" mc="Standard.UseCase" uid="8cd4e04a-ac68-40af-8047-bac0af03a0b5"/>
+        <COMPID name="Cambiar datos" mc="Standard.UseCase" uid="5917d97e-7378-4c0b-ac81-83b3df4527e6"/>
+        <COMPID name="Acceder a la politica de privacidad" mc="Standard.UseCase" uid="83d5a069-8285-4a33-b14c-31b8122715b1"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="8a5cefe8-34da-4dc2-853e-c36fba5a673b"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="2c611533-4afb-4a0d-8910-1f6aff23b092"/>
+        <COMPID name="Usuario" mc="Standard.Actor" uid="2fac0093-f064-4080-85c4-c19f00b20857"/>
+        <COMPID name="Vendedor" mc="Standard.Actor" uid="e8f230c6-0140-4908-ae2d-58de3db97550"/>
+        <COMPID name="Gestionar perfil" mc="Standard.UseCase" uid="0aa7902b-d68f-4128-885b-5b0d606a1cde"/>
+        <COMPID name="Acceder a manual de usuario" mc="Standard.UseCase" uid="ca07b5fa-8f10-477e-afb0-407c040f6583"/>
+        <COMPID name="Autenticarse" mc="Standard.UseCase" uid="5969acb6-d608-4871-8bf9-d599165c53e0"/>
+        <COMPID name="Acceder a resumen" mc="Standard.UseCase" uid="6e085356-9932-4d6e-ae3a-4f7a04ad6ffd"/>
+        <COMPID name="Gestionar productos" mc="Standard.UseCase" uid="9bf59f82-1fad-4f0c-b8ed-c0fda618ebba"/>
+        <COMPID name="Consultar base de datos" mc="Standard.UseCase" uid="ffc4439f-a710-43a7-bda5-431f367cc004"/>
+        <COMPID name="Actualizar base de datos" mc="Standard.UseCase" uid="bf0788dc-1da8-4380-9c82-3833d285f07f"/>
+        <COMPID name="Base de datos" mc="Standard.Actor" uid="43943bea-6722-4c04-9de0-2ba837ad4d64"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Abrir Carrito" mc="Standard.UseCaseDiagram" uid="d0837c83-c6bc-4976-b9a1-3c28225a6296"/>
+        <COMPID name="Autenticarse" mc="Standard.UseCaseDiagram" uid="9f94c8ee-f8ee-4351-b08e-d27a9768e75a"/>
+        <COMPID name="Cliente" mc="Standard.UseCaseDiagram" uid="4e515f0f-cca3-4f94-ab8b-c5f03936260f"/>
+        <COMPID name="Gestionar productos" mc="Standard.UseCaseDiagram" uid="34e400dc-bd2d-4adc-b1b0-6d3099abca90"/>
+        <COMPID name="Notificaciones" mc="Standard.UseCaseDiagram" uid="c1837cac-f55a-4d38-b384-b9bcc3ff3b06"/>
+        <COMPID name="Pagina de inicio" mc="Standard.UseCaseDiagram" uid="d9c719de-2c8f-4cd7-b5ef-acc6fbd48e08"/>
+        <COMPID name="Perfil" mc="Standard.UseCaseDiagram" uid="7e770eb8-16b9-4062-8f2a-c133ea8ff238"/>
+        <COMPID name="Vendedor" mc="Standard.UseCaseDiagram" uid="70804732-11ef-48bb-a9ec-be5967e016ab"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
